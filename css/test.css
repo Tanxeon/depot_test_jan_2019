@@ -1,0 +1,75 @@
+/*page css utilisée pour register et login et profil*/
+
+
+
+html{
+  background-color: white;
+  background-image:url(../images/fond_ecran.jpg);
+}
+/* titre centré */
+body {
+	box-shadow:inset 5 5 15em #999;
+}
+
+/*déco du titre*/
+h1{
+  text-shadow: 25px 25px 5px red;
+  text-align: center;
+  font-size:40px;
+  color: black;
+}
+
+/*formulaire centré*/
+
+.enregistrement {
+
+font-size:22px;
+color:#252525;
+text-align:center;
+
+}
+
+form{
+
+width: 30%;
+margin: 0px auto;
+padding:20px;
+border-radius: 3px 3px 5px 5px;
+
+}
+.login{
+  font-weight: bold;
+  text-align: center;
+}
+input{
+  color:white;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+
+  font-weight:bold;
+  background-color: black;
+}
+
+.donnees{
+  text-align: center;
+  text-decoration-color: red;
+  : 5px red;
+
+
+}
+a{
+  color:red;
+  text-align: center;
+  text-indent: inherit;
+  font-size: 15px;
+  background-color: black;
+
+}
+/*couleur du bouton connexion*/
+.champ{
+
+  background-color:black;
+}
